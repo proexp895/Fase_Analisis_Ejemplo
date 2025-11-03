@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo Complementario – Comercialización de la Cosecha (AGRO-UNO)</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+      background: #fff;
+      padding: 20px;
+      max-width: 950px;
+      margin: auto;
+      line-height: 1.6;
+      text-align: justify;
+    }
+    h4, h5 {
+      color: #39A900;
+      margin-top: 25px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px;
+    }
+    thead {
+      background: #f3fdf4;
+    }
+    .diagram {
+      text-align: center;
+      margin: 25px 0;
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #39A900;
+      margin: 20px 0;
+    }
+    p.note {
+      font-size: 13px;
+      color: #555;
+    }
+    .conceptos {
+      background: #f8fdf8;
+      border-left: 5px solid #39A900;
+      padding: 15px;
+      margin-top: 25px;
+      font-size: 15px;
+    }
+    ul {
+      margin-top: 10px;
+    }
+    th{
+        text-align: center;
+        color: #39A900;
+        font-size: 1.5em;
+        background-color: #eee272;
+    }
+  </style>
+</head>
+<body>
+<h1 style="text-align: center;">Ejemplo de identificación de Procesos</h1>
+  <h4>🧩 Contexto del caso de estudio – Asociación de Agricultores AGRO-UNO</h4>
+  <p>
+    La <strong>Asociación de Agricultores AGRO-UNO</strong> busca implementar un <strong>software de comercialización directa</strong>
+    que permita a los productores ofrecer sus cosechas directamente al consumidor final, reduciendo los intermediarios que elevan los costos
+    y disminuyen la rentabilidad del agricultor.  
+  </p>
+
+  <p>
+    El sistema propuesto registrará con anticipación a los <strong>usuarios finales (consumidores)</strong>,
+    quienes podrán realizar compras en línea y recibir sus productos en <strong>puntos de entrega locales</strong> ubicados estratégicamente en diferentes municipios.  
+    De esta forma se pretende <strong>disminuir los costos logísticos y de intermediación</strong>, 
+    mejorar la <strong>eficiencia en la distribución</strong> y garantizar que los consumidores reciban 
+    productos de <strong>mayor frescura y calidad</strong> directamente desde el campo.
+  </p>
+
+  <h4>🧩 Ejemplo complementario de análisis del proceso</h4>
+  <p>
+    A continuación se presenta la aplicación de la <strong>Teoría General de Sistemas (TGS)</strong> 
+    al proceso de <strong>comercialización de la cosecha</strong> dentro del modelo AGRO-UNO,
+    desglosando las fases según los componentes sistémicos de entrada, proceso, salida, actor y retroalimentación.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Entrada</th>
+        <th>Proceso</th>
+        <th>Salida</th>
+        <th>Actor(es)</th>
+        <th>Retroalimentación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Registro del productor y disponibilidad de cosecha (tipo, cantidad, calidad).</td>
+        <td>Clasificación y registro del inventario agrícola en la plataforma.</td>
+        <td>Catálogo digital de productos disponibles.</td>
+        <td>Productor / Sistema AGRO-UNO.</td>
+        <td>Actualización de inventario según demanda y temporada.</td>
+      </tr>
+      <tr>
+        <td>Catálogo digital de productos.</td>
+        <td>Visualización y selección del producto por parte del consumidor registrado.</td>
+        <td>Orden de compra generada en el sistema.</td>
+        <td>Consumidor / Plataforma.</td>
+        <td>Notificación de interés al productor.</td>
+      </tr>
+      <tr>
+        <td>Orden de compra.</td>
+        <td>Confirmación de disponibilidad y validación del pago.</td>
+        <td>Factura electrónica y asignación de punto de entrega.</td>
+        <td>Productor / Sistema de pagos / Logística.</td>
+        <td>Verificación de transacción y control contable.</td>
+      </tr>
+      <tr>
+        <td>Factura generada.</td>
+        <td>Empaque, distribución y traslado a punto de entrega municipal.</td>
+        <td>Producto disponible para el consumidor.</td>
+        <td>Operario / Transportador / Coordinador de entrega.</td>
+        <td>Reporte de estado de entrega.</td>
+      </tr>
+      <tr>
+        <td>Producto entregado.</td>
+        <td>Recepción del pedido y confirmación del cliente.</td>
+        <td>Transacción completada.</td>
+        <td>Consumidor / Productor / Plataforma.</td>
+        <td>Encuesta de satisfacción y reporte de calidad.</td>
+      </tr>
+      <tr>
+        <td>Datos de satisfacción del cliente.</td>
+        <td>Análisis de resultados y ajuste de estrategias comerciales.</td>
+        <td>Informe de mejora continua.</td>
+        <td>Administradores de AGRO-UNO.</td>
+        <td>Actualización del sistema y retroalimentación al productor.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="diagram">
+    <svg xmlns="http://www.w3.org/2000/svg" width="880" height="200">
+      <rect x="20" y="80" width="80" height="40" rx="10" ry="10" fill="#dff8df" stroke="#39A900"></rect>
+      <text x="60" y="105" font-size="12" text-anchor="middle">Inicio</text>
+
+      <rect x="120" y="80" width="130" height="40" rx="5" ry="5" fill="#eafbea" stroke="#39A900"></rect>
+      <text x="185" y="105" font-size="12" text-anchor="middle">Registro de producto</text>
+
+      <rect x="270" y="80" width="130" height="40" rx="5" ry="5" fill="#eafbea" stroke="#39A900"></rect>
+      <text x="335" y="105" font-size="12" text-anchor="middle">Compra en línea</text>
+
+      <rect x="420" y="80" width="130" height="40" rx="5" ry="5" fill="#eafbea" stroke="#39A900"></rect>
+      <text x="485" y="105" font-size="12" text-anchor="middle">Pago y validación</text>
+
+      <rect x="570" y="80" width="130" height="40" rx="5" ry="5" fill="#eafbea" stroke="#39A900"></rect>
+      <text x="635" y="105" font-size="12" text-anchor="middle">Entrega municipal</text>
+
+      <rect x="720" y="80" width="130" height="40" rx="5" ry="5" fill="#eafbea" stroke="#39A900"></rect>
+      <text x="785" y="105" font-size="12" text-anchor="middle">Evaluación final</text>
+
+      <line x1="100" y1="100" x2="120" y2="100" stroke="#39A900" stroke-width="1.5" marker-end="url(#arrow)"></line>
+      <line x1="250" y1="100" x2="270" y2="100" stroke="#39A900" stroke-width="1.5" marker-end="url(#arrow)"></line>
+      <line x1="400" y1="100" x2="420" y2="100" stroke="#39A900" stroke-width="1.5" marker-end="url(#arrow)"></line>
+      <line x1="550" y1="100" x2="570" y2="100" stroke="#39A900" stroke-width="1.5" marker-end="url(#arrow)"></line>
+      <line x1="700" y1="100" x2="720" y2="100" stroke="#39A900" stroke-width="1.5" marker-end="url(#arrow)"></line>
+
+      <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L6,3 z" fill="#39A900"></path>
+        </marker>
+      </defs>
+    </svg>
+    <p class="note">Diagrama BPMN simplificado: flujo del proceso de comercialización directa AGRO-UNO.</p>
+  </div>
+
+  <div class="conceptos">
+    <h5>Conceptos relacionados con la Teoría General de Sistemas y el proceso AGRO-UNO</h5>
+    <ul>
+      <li><strong>Teoría General de Sistemas (TGS):</strong> Permite analizar la organización agrícola como un sistema abierto donde productores, consumidores y tecnología interactúan para lograr objetivos comunes: eficiencia, transparencia y sostenibilidad.</li>
+      <li><strong>Sistema:</strong> AGRO-UNO funciona como un sistema socio-técnico en el que confluyen componentes humanos, tecnológicos, logísticos y financieros interconectados.</li>
+      <li><strong>Proceso:</strong> Conjunto de actividades que transforman las entradas (oferta de productos) en salidas (ventas consolidadas), generando valor tanto para el productor como para el consumidor.</li>
+      <li><strong>Entrada:</strong> Información sobre la producción disponible, datos del cliente y requerimientos logísticos para programar entregas eficientes.</li>
+      <li><strong>Salida:</strong> Entrega efectiva del producto, satisfacción del cliente, facturación y trazabilidad de la operación.</li>
+      <li><strong>Actor:</strong> Cada participante cumple un rol esencial: productor (oferta), consumidor (demanda), sistema (plataforma), y logística (entrega).</li>
+      <li><strong>Retroalimentación:</strong> La información del mercado, los comentarios del cliente y los reportes financieros retroalimentan el sistema para mejorar la toma de decisiones y la planeación de futuras cosechas.</li>
+      <li><strong>Diagrama de proceso:</strong> Representa gráficamente las etapas de comercialización, evidenciando cómo las actividades están encadenadas y orientadas a un fin común.</li>
+      <li><strong>Diagrama de flujo:</strong> Utilizado para detallar la secuencia de decisiones y operaciones dentro del software de AGRO-UNO, facilitando la comprensión del recorrido de la información.</li>
+      <li><strong>BPMN (Business Process Model and Notation):</strong> Proporciona un lenguaje estandarizado para modelar los flujos de compra, pago y entrega, permitiendo visualizar las interacciones entre actores y subsistemas.</li>
+      <li><strong>Control sistémico:</strong> Se ejerce mediante indicadores (ventas, tiempos de entrega, niveles de satisfacción) que permiten mantener la estabilidad y mejorar la eficiencia del sistema.</li>
+      <li><strong>Interdependencia:</strong> Cada componente del proceso depende del correcto funcionamiento del anterior: si la validación del pago falla, no se activa la entrega; si la logística se retrasa, se afecta la satisfacción del cliente.</li>
+      <li><strong>Adaptabilidad:</strong> El sistema se ajusta a las condiciones del mercado, la demanda regional y la disponibilidad de transporte para garantizar la sostenibilidad del modelo.</li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <p><strong>Conclusión:</strong>  
+  El caso de la Asociación AGRO-UNO demuestra cómo la aplicación de la <strong>Teoría General de Sistemas</strong> 
+  y las herramientas de <strong>modelado de procesos (BPMN y diagramas de flujo)</strong> permiten optimizar la comercialización directa 
+  entre el productor y el consumidor final. Este enfoque sistémico reduce intermediarios, mejora la eficiencia operativa 
+  y fortalece el vínculo campo-consumidor mediante un modelo de gestión tecnológica sostenible y equitativo.</p>
+
+</body>
+</html>
+
+  
+  
+  
